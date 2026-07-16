@@ -38,12 +38,13 @@
    - Clip nào sai chữ, giọng, mix, cue hoặc animation phải retake trong Higgsfield; không chấp nhận với ý định “sửa sau”.
 5. **Đăng và đo**: xem retention tại giây 3, giây 15 và thời điểm reveal. Dữ liệu này quyết định video sau, không phải cảm tính.
 
-## 4 nguyên tắc sống còn (rút từ skill seedance-20)
+## 5 nguyên tắc sống còn (rút từ skill seedance-20)
 
 1. **AI không có trí nhớ → sự nhất quán nằm trong việc copy-paste.** Nouri trông giống nhau giữa các clip vì mô tả giống nhau từng chữ, không phải vì AI "nhớ". Sửa 1 từ trong khối nhân vật = đổi diễn viên.
 2. **Mỗi clip chỉ có 1 nhịp hành động + 1 chuyển động camera có điểm kết thúc.** Tham lam 2 hành động trong 8 giây là cách nhanh nhất để ra clip hỏng.
 3. **Chuyển động chính là bài học.** Trong đoạn quan sát, CHỈ vật thể đúng đáp án được động đậy (cây rung trong gió), mọi thứ khác đứng im tuyệt đối. Trẻ đoán được nhờ mắt, không cần nghe hiểu tiếng Anh.
 4. Nhớ là prompt bằng tiếng anh
+5. **Không dùng “superpower”, siêu năng lực hoặc phép thuật để giải thích bài học.** Nouri là người hướng dẫn tò mò, không phải siêu anh hùng; mọi reveal và fact phải dựa trên nguyên nhân–kết quả quan sát được. Không dùng hào quang phép thuật, tia năng lượng hoặc lời thoại biến một hiện tượng khoa học thành năng lực đặc biệt.
 
 ## Skill đạo diễn đã cài
 
