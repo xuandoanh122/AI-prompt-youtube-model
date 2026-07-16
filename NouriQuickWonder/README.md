@@ -15,6 +15,7 @@ Series khoa học tương tác ngắn cho trẻ 4–8 tuổi, sản xuất bằn
 | 01 — Which One Is Alive? | Production runbook | [`episodes/01-which-one-is-alive/PRODUCTION-RUNBOOK.md`](episodes/01-which-one-is-alive/PRODUCTION-RUNBOOK.md) |
 | 02 — Float or Sink? | Production runbook đã có | [`episodes/02-float-or-sink/PRODUCTION-RUNBOOK.md`](episodes/02-float-or-sink/PRODUCTION-RUNBOOK.md) |
 | 03 — Shadow Match | Production runbook đã có | [`episodes/03-shadow-match/PRODUCTION-RUNBOOK.md`](episodes/03-shadow-match/PRODUCTION-RUNBOOK.md) |
+| 04 — Animal Home | Production runbook đã có | [`episodes/04-animal-home/PRODUCTION-RUNBOOK.md`](episodes/04-animal-home/PRODUCTION-RUNBOOK.md) |
 
 ## Quy tắc thư mục
 

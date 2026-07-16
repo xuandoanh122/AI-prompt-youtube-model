@@ -16,6 +16,7 @@
 | [`../episodes/01-which-one-is-alive/archive/HISTORICAL-V2.md`](../episodes/01-which-one-is-alive/archive/HISTORICAL-V2.md) | Episode 01 — bản lịch sử, không dùng production |
 | [`../episodes/02-float-or-sink/PRODUCTION-RUNBOOK.md`](../episodes/02-float-or-sink/PRODUCTION-RUNBOOK.md) | Episode 02 — runbook production all-in-one hiện hành |
 | [`../episodes/03-shadow-match/PRODUCTION-RUNBOOK.md`](../episodes/03-shadow-match/PRODUCTION-RUNBOOK.md) | Episode 03 — runbook production all-in-one hiện hành |
+| [`../episodes/04-animal-home/PRODUCTION-RUNBOOK.md`](../episodes/04-animal-home/PRODUCTION-RUNBOOK.md) | Episode 04 — runbook production all-in-one hiện hành |
 
 ## Quy trình sản xuất 1 video (lặp lại y hệt cho mọi video)
 

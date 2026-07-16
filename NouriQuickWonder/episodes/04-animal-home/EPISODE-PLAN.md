@@ -1,6 +1,6 @@
 # EPISODE 04 — PLAN · “Animal Home”
 
-> **Trạng thái:** CHỜ CHỦ KÊNH DUYỆT; chưa compile production runbook hoặc Claude handoff.
+> **Trạng thái:** ĐÃ DUYỆT; production runbook đã compile tại [`PRODUCTION-RUNBOOK.md`](PRODUCTION-RUNBOOK.md), handoff tại [`CLAUDE-HANDOFF.md`](CLAUDE-HANDOFF.md).
 > **Format:** 5 clip Higgsfield all-in-one · `6–8–8–8–8` · khoảng 38 giây · landscape 16:9 · 1920×1080.
 > **Policy:** mỗi prompt tự generate hình, animation, exact text, thoại, ambience, SFX và nhạc; bên ngoài chỉ ghép hard cut.
 
@@ -97,11 +97,6 @@ Giữ nguyên NOURI BLOCK, STYLE BLOCK, VOICE LINE và MUSIC IDENTITY LOCK từ 
 - **Retention checkpoints:** giây 1 · giây 3 · countdown Guess khoảng giây 11.5 · ong bắt đầu bay khoảng giây 14 · ong vào hive khoảng giây 18 · completion.
 - **Giả thuyết:** một flight path đơn giản, dễ dự đoán nhưng có endpoint “chui vào cửa tổ” sẽ tạo visual reward rõ hơn chuỗi ong đổi hướng phức tạp và giữ retention qua Reveal.
 
-## 7. Approval gate
+## 7. Production handoff
 
-Nếu chủ kênh duyệt plan này, bước tiếp theo là:
-
-1. compile đúng năm prompt all-in-one vào `PRODUCTION-RUNBOOK.md`;
-2. tạo `CLAUDE-HANDOFF.md` giới hạn chỉ đọc Bible + plan Episode 04;
-3. đổi trạng thái plan sang đã duyệt và cập nhật các index live cần thiết;
-4. chạy validation canon, prompt fences, durations, preset labels, exact text/dialogue, SEO tags và hard-cut-only policy.
+Plan đã được duyệt. Dùng [`PRODUCTION-RUNBOOK.md`](PRODUCTION-RUNBOOK.md) để generate năm clip và [`CLAUDE-HANDOFF.md`](CLAUDE-HANDOFF.md) khi cần Claude review/compile lại có kiểm soát.

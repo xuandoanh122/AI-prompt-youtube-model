@@ -23,7 +23,7 @@
 - **CTA:** "Can you make a shadow with your hand?"
 - **Lưu ý prompt:** bóng là thử thách cho model — nếu 3 bóng cùng lúc bị lỗi, tách thành từng bóng một clip.
 
-## 3. Animal Home 🐝
+## 3. Animal Home 🐝 *(Episode 04 — [mở plan](../episodes/04-animal-home/EPISODE-PLAN.md))*
 
 - **Hook:** "Where does the bee live?"
 - **3 vật:** tổ ong vàng lục giác · tổ chim bằng cành cây · hang đất nhỏ
