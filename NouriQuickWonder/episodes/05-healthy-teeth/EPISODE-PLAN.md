@@ -1,6 +1,6 @@
 # EPISODE 05 — PLAN · “Healthy Teeth”
 
-> **Trạng thái:** ĐÃ DUYỆT THEO CHỈ ĐẠO TRỰC TIẾP; compile production ngay, không chờ duyệt riêng và không tạo Claude handoff.
+> **Trạng thái:** ĐÃ DUYỆT THEO CHỈ ĐẠO TRỰC TIẾP; cần compile lại production runbook theo plan này, không chờ duyệt riêng và không tạo Claude handoff.
 > **Format:** 5 clip Higgsfield all-in-one · `6–8–8–8–8` · khoảng 38 giây · landscape 16:9 · 1920×1080.
 > **Policy:** mỗi prompt tự generate hình, animation, exact text, thoại, ambience, SFX và nhạc; bên ngoài chỉ ghép hard cut.
 
@@ -99,4 +99,4 @@ Giữ nguyên NOURI BLOCK, STYLE BLOCK, VOICE LINE và MUSIC IDENTITY LOCK từ 
 
 ## 7. Production handoff
 
-Theo chỉ đạo của chủ kênh, plan này được duyệt trực tiếp và compile ngay. Dùng [`PRODUCTION-RUNBOOK.md`](PRODUCTION-RUNBOOK.md) để generate năm clip. Episode 05 không có `CLAUDE-HANDOFF.md`.
+Theo chỉ đạo của chủ kênh, plan này đã được duyệt trực tiếp. Bước tiếp theo là compile mới `PRODUCTION-RUNBOOK.md` từ đúng các lock trong plan này rồi mới generate năm clip. Episode 05 không có `CLAUDE-HANDOFF.md`.

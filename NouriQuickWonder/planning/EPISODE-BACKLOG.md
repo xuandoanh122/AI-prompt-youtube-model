@@ -1,4 +1,4 @@
-# BACKLOG — 6 video tiếp theo (đã quy hoạch theo công thức)
+# BACKLOG — Các video tiếp theo (đã quy hoạch theo công thức)
 
 > Chỉ sản xuất sau khi pilot có số liệu retention. Mỗi video: 1 câu hỏi · 1 kiến thức · Nouri · 1 bối cảnh MỚI (không dùng lại vườn của pilot) · tối đa 3 vật · 5 clip 6-8-8-8-8.
 > Cột "Mẹo reveal thị giác" là thứ quyết định video hay hay dở — reveal phải NHÌN thấy được, không phải nghe giải thích.
@@ -23,7 +23,7 @@
 - **CTA:** "Can you make a shadow with your hand?"
 - **Lưu ý prompt:** bóng là thử thách cho model — nếu 3 bóng cùng lúc bị lỗi, tách thành từng bóng một clip.
 
-## 3. Animal Home 🐝 *(Episode 04 — [mở plan](../episodes/04-animal-home/EPISODE-PLAN.md))*
+## 3. Animal Home 🐝 *(Episode 04 — [mở runbook](../episodes/04-animal-home/PRODUCTION-RUNBOOK.md))*
 
 - **Hook:** "Where does the bee live?"
 - **3 vật:** tổ ong vàng lục giác · tổ chim bằng cành cây · hang đất nhỏ
@@ -33,7 +33,7 @@
 - **CTA:** "Point to where YOU live!"
 - **Lưu ý prompt:** ong là nhân vật phụ chỉ tồn tại trong video này — mô tả đủ kỹ trong mọi clip có nó: `a small round cartoon honeybee with soft yellow-and-brown stripes, tiny clear wings, friendly eyes, no stinger`.
 
-## 4. Healthy Teeth 🦷
+## 4. Healthy Teeth 🦷 *(Episode 05 — [mở plan đã duyệt](../episodes/05-healthy-teeth/EPISODE-PLAN.md))*
 
 - **Hook:** "Which snack makes your teeth happy?"
 - **3 vật:** quả táo xanh · cây kẹo mút xoáy · củ cà rốt
@@ -43,7 +43,7 @@
 - **CTA:** "Did you brush your teeth today? Thumbs up!"
 - **Lưu ý:** 2 đáp án đúng (táo + cà rốt) — biến thể hay: format không bắt buộc chỉ 1 đáp án đúng, nhưng phải nói rõ trong reveal.
 
-## 5. Loud or Soft 🔔
+## 5. Loud or Soft 🔔 *(Episode 06 — [mở plan](../episodes/06-loud-or-soft/EPISODE-PLAN.md))*
 
 - **Hook:** "Which sound is soft… shhh?"
 - **3 vật:** trống đồ chơi đỏ · chuông gió bạc · còi tu huýt
@@ -53,7 +53,7 @@
 - **CTA:** "Can you whisper your name… very softly?"
 - **Lưu ý hậu kỳ:** video này SFX là nhân vật chính — mix trống to thật, chuông nhỏ thật; đây là video duy nhất nên phá luật "ambience phẳng".
 
-## 6. Heavy or Light 🎈
+## 6. Heavy or Light 🎈 *(Episode 07 — [mở plan](../episodes/07-heavy-or-light/EPISODE-PLAN.md))*
 
 - **Hook:** "Which one is easier to lift?"
 - **3 vật:** bóng bay đỏ · quyển sách dày · quả bowling tím
@@ -62,6 +62,36 @@
 - **Kiến thức:** "Light things are easy to lift. Heavy things are hard to lift."
 - **CTA:** "Can you lift something light… like a feather?"
 - **Lưu ý prompt:** cảnh Nouri kéo vật là hành động lớn — cho nó làm nhịp DUY NHẤT của clip, camera khóa.
+
+## 7. Magnetic or Not 🧲 *(Episode 08 — [mở plan](../episodes/08-magnetic-or-not/EPISODE-PLAN.md))*
+
+- **Hook:** "Which one sticks to the magnet?"
+- **3 vật:** khối gỗ nhỏ · kẹp giấy bạc · nút nhựa xanh
+- **Bối cảnh:** bàn khoa học lớp học sáng, tường xanh mint
+- **Mẹo reveal thị giác:** nam châm móng ngựa đỏ hạ xuống; chỉ kẹp giấy trượt lên và dính vào nam châm. Khối gỗ và nút nhựa đứng yên.
+- **Kiến thức:** "Magnets pull some metal things."
+- **CTA:** "Can you find something magnetic?"
+- **Lưu ý prompt:** không dùng coin vì dễ làm trẻ nghĩ mọi kim loại đều bị hút; khóa chỉ paperclip chuyển động.
+
+## 8. Hot or Cold 🧊 *(Episode 09 — [mở plan](../episodes/09-hot-or-cold/EPISODE-PLAN.md))*
+
+- **Hook:** "Which one is cold?"
+- **3 vật:** cốc đỏ ấm có nắp · viên đá trong trên đĩa · găng tay xanh
+- **Bối cảnh:** bàn picnic an toàn trong công viên sáng
+- **Mẹo reveal thị giác:** viên đá có hơi lạnh xanh nhạt và vài giọt nước ngưng tụ; không có tay chạm, lửa, bỏng hoặc hơi nóng nguy hiểm.
+- **Kiến thức:** "Cold things can make tiny water drops outside."
+- **CTA:** "Can you find something cold?"
+- **Lưu ý prompt:** giữ nội dung an toàn cho trẻ; không mô tả đau/bỏng/chạm vật nóng.
+
+## 9. Day or Night 🌙 *(Episode 10 — [mở plan](../episodes/10-day-or-night/EPISODE-PLAN.md))*
+
+- **Hook:** "Which sky shows night?"
+- **3 lựa chọn:** thẻ trời ngày có mặt trời · thẻ trời đêm có trăng sao · thẻ hoàng hôn
+- **Bối cảnh:** góc học cạnh cửa sổ, bàn trưng bày thẻ bầu trời
+- **Mẹo reveal thị giác:** thẻ đêm ở giữa sáng nhẹ; trăng và ba ngôi sao twinkle một lần; hai thẻ sai mờ nhẹ sau reveal.
+- **Kiến thức:** "We often see the moon and stars at night."
+- **CTA:** "Can you look for the moon tonight?"
+- **Lưu ý prompt:** dùng sky cards thay vì đổi toàn bộ bối cảnh sang đêm để tránh style jump giữa các clip.
 
 ---
 

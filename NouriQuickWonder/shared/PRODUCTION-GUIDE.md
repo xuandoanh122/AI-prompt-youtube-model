@@ -17,6 +17,12 @@
 | [`../episodes/02-float-or-sink/PRODUCTION-RUNBOOK.md`](../episodes/02-float-or-sink/PRODUCTION-RUNBOOK.md) | Episode 02 — runbook production all-in-one hiện hành |
 | [`../episodes/03-shadow-match/PRODUCTION-RUNBOOK.md`](../episodes/03-shadow-match/PRODUCTION-RUNBOOK.md) | Episode 03 — runbook production all-in-one hiện hành |
 | [`../episodes/04-animal-home/PRODUCTION-RUNBOOK.md`](../episodes/04-animal-home/PRODUCTION-RUNBOOK.md) | Episode 04 — runbook production all-in-one hiện hành |
+| [`../episodes/05-healthy-teeth/EPISODE-PLAN.md`](../episodes/05-healthy-teeth/EPISODE-PLAN.md) | Episode 05 — plan đã duyệt, chờ compile lại runbook |
+| [`../episodes/06-loud-or-soft/PRODUCTION-RUNBOOK.md`](../episodes/06-loud-or-soft/PRODUCTION-RUNBOOK.md) | Episode 06 — runbook production all-in-one hiện hành |
+| [`../episodes/07-heavy-or-light/PRODUCTION-RUNBOOK.md`](../episodes/07-heavy-or-light/PRODUCTION-RUNBOOK.md) | Episode 07 — runbook production all-in-one hiện hành |
+| [`../episodes/08-magnetic-or-not/PRODUCTION-RUNBOOK.md`](../episodes/08-magnetic-or-not/PRODUCTION-RUNBOOK.md) | Episode 08 — runbook production all-in-one hiện hành |
+| [`../episodes/09-hot-or-cold/PRODUCTION-RUNBOOK.md`](../episodes/09-hot-or-cold/PRODUCTION-RUNBOOK.md) | Episode 09 — runbook production all-in-one hiện hành |
+| [`../episodes/10-day-or-night/PRODUCTION-RUNBOOK.md`](../episodes/10-day-or-night/PRODUCTION-RUNBOOK.md) | Episode 10 — runbook production all-in-one hiện hành |
 
 ## Quy trình sản xuất 1 video (lặp lại y hệt cho mọi video)
 
