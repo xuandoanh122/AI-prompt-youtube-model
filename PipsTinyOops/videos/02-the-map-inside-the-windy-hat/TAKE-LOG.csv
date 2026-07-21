@@ -1,0 +1,25 @@
+sequence,shot,global_order,output_id,status,attempt,planned_output_filename,source_filename,local_video_path,opening_frame_ref,closing_frame_ref,observed_start,observed_end,identity_ok,continuity_ok,story_job_ok,changed_variable,notes
+01,01,001,pip-v02-c01-s01,approved,1,PIP02_001_C01S01_T01_APPROVED.mp4,Pip_walks_to_bench_202607181305.mp4,outputs/video/approved/PIP02_001_C01S01_T01_APPROVED.mp4,outputs/keyframes/opening/PIP02_001_C01S01_OPEN_V01.png,outputs/keyframes/closing/PIP02_001_C01S01_CLOSE_V01.png,Operator-approved start; not independently inspected,Operator-approved endpoint matching the K02 handoff; not independently inspected,true,true,true,none; first take,Operator approved T01 without requested independent footage review; K02 closing remains the connected-state authority
+01,02,002,pip-v02-c01-s02,approved,1,PIP02_002_C01S02_T01_APPROVED.mp4,operator_download_name_not_recorded,outputs/video/approved/PIP02_002_C01S02_T01_APPROVED.mp4,outputs/keyframes/opening/PIP02_002_C01S02_OPEN_V01.png,outputs/keyframes/closing/PIP02_002_C01S02_CLOSE_V02.png,Operator-approved start matching the S02 opening; not independently inspected,Operator-approved airborne endpoint matching the V02 closing; not independently inspected,true,true,true,cause timing prompt; first accepted take,Operator approved T01 without requested independent footage review; V02 closing remains the connected-state authority for S03
+01,03,003,pip-v02-c01-s03,approved,2,PIP02_003_C01S03_T02_APPROVED.mp4,operator_download_name_not_recorded,outputs/video/approved/PIP02_003_C01S03_T02_APPROVED.mp4,outputs/keyframes/closing/PIP02_002_C01S02_CLOSE_V02.png,outputs/keyframes/closing/PIP02_003_C01S03_CLOSE_V01.jpeg,Opening broadly matches the approved airborne S02 endpoint,Operator accepted the generated endpoint as the C01-S04 handoff at the working threshold,true,true,true,operator approval override,T01 rejected from preview; initial local T02 review concerns retained in runbook; owner approved T02 on 2026-07-18; observed final video frame is the S04 opening authority
+01,04,004,pip-v02-c01-s04,retake,1,PIP02_004_C01S04_T02_RAW.mp4,provider_preview_not_downloaded,,outputs/keyframes/opening/PIP02_004_C01S04_OPEN_V01.png,outputs/keyframes/closing/PIP02_004_C01S04_CLOSE_V01.jpeg,Preview drifts from the accepted opening pose and changes Pip's face and beak,Pip rotates through a full back view and appears to walk away before returning near the closing pose,false,false,false,remove preset; replace forward tracking with gentle reframe; keep side three-quarter half-step,T01 rejected from operator screenshots; simplified character-matched T02 is the only unlocked task
+02,01,005,pip-v02-c02-s01,reference_pending,0,PIP02_005_C02S01_T01_RAW.mp4,,,,,,,,,,,
+02,02,006,pip-v02-c02-s02,reference_pending,0,PIP02_006_C02S02_T01_RAW.mp4,,,,,,,,,,,
+02,03,007,pip-v02-c02-s03,reference_pending,0,PIP02_007_C02S03_T01_RAW.mp4,,,,,,,,,,,
+02,04,008,pip-v02-c02-s04,reference_pending,0,PIP02_008_C02S04_T01_RAW.mp4,,,,,,,,,,,
+03,01,009,pip-v02-c03-s01,reference_pending,0,PIP02_009_C03S01_T01_RAW.mp4,,,,,,,,,,,
+03,02,010,pip-v02-c03-s02,reference_pending,0,PIP02_010_C03S02_T01_RAW.mp4,,,,,,,,,,,
+03,03,011,pip-v02-c03-s03,reference_pending,0,PIP02_011_C03S03_T01_RAW.mp4,,,,,,,,,,,
+03,04,012,pip-v02-c03-s04,reference_pending,0,PIP02_012_C03S04_T01_RAW.mp4,,,,,,,,,,,
+04,01,013,pip-v02-c04-s01,reference_pending,0,PIP02_013_C04S01_T01_RAW.mp4,,,,,,,,,,,
+04,02,014,pip-v02-c04-s02,reference_pending,0,PIP02_014_C04S02_T01_RAW.mp4,,,,,,,,,,,
+04,03,015,pip-v02-c04-s03,reference_pending,0,PIP02_015_C04S03_T01_RAW.mp4,,,,,,,,,,,
+04,04,016,pip-v02-c04-s04,reference_pending,0,PIP02_016_C04S04_T01_RAW.mp4,,,,,,,,,,,
+05,01,017,pip-v02-c05-s01,reference_pending,0,PIP02_017_C05S01_T01_RAW.mp4,,,,,,,,,,,
+05,02,018,pip-v02-c05-s02,reference_pending,0,PIP02_018_C05S02_T01_RAW.mp4,,,,,,,,,,,
+05,03,019,pip-v02-c05-s03,reference_pending,0,PIP02_019_C05S03_T01_RAW.mp4,,,,,,,,,,,
+05,04,020,pip-v02-c05-s04,reference_pending,0,PIP02_020_C05S04_T01_RAW.mp4,,,,,,,,,,,
+06,01,021,pip-v02-c06-s01,reference_pending,0,PIP02_021_C06S01_T01_RAW.mp4,,,,,,,,,,,
+06,02,022,pip-v02-c06-s02,reference_pending,0,PIP02_022_C06S02_T01_RAW.mp4,,,,,,,,,,,
+06,03,023,pip-v02-c06-s03,reference_pending,0,PIP02_023_C06S03_T01_RAW.mp4,,,,,,,,,,,
+06,04,024,pip-v02-c06-s04,reference_pending,0,PIP02_024_C06S04_T01_RAW.mp4,,,,,,,,,,,

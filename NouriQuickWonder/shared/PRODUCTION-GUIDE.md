@@ -1,55 +1,34 @@
-# NOURI'S QUICK WONDER — Bộ tài liệu sản xuất
+# NOURI PRODUCTION GUIDE
 
-> **Look. Guess. Learn!** — Video thử thách thị giác 35–45 giây cho trẻ 4–8 tuổi.
-> Mỗi video độc lập hoàn toàn. Không cốt truyện nối tiếp. Xem video nào trước cũng được.
-> Khung hình canon: **landscape 16:9, 1920×1080**, ưu tiên đăng video YouTube thường thay vì YouTube Shorts.
+> **Scope:** chỉ Nouri's Quick Wonder.
+> **Output active:** vertical 9:16 · 1080×1920 · 2:40–2:55 · five components 30–35 giây.
+> **Generation unit:** shot all-in-one 6–8 giây; mỗi shot một action và một endpoint.
 
-## Cấu trúc tài liệu
+## Authority
 
-| File | Dùng để làm gì |
+| Việc | File |
 |---|---|
-| [`../README.md`](../README.md) | Mục lục ở root — mở file này đầu tiên |
-| [`NOURI-BIBLE.md`](NOURI-BIBLE.md) | **Canon quan trọng nhất:** character, style, voice, audio và music identity lock |
-| [`NOURI-TURNAROUND-PROMPTS.md`](NOURI-TURNAROUND-PROMPTS.md) | Prompt ảnh tĩnh các góc xoay để tạo preset Nouri |
-| [`../planning/EPISODE-BACKLOG.md`](../planning/EPISODE-BACKLOG.md) | Backlog và thứ tự episode dự kiến |
-| [`../episodes/01-which-one-is-alive/PRODUCTION-RUNBOOK.md`](../episodes/01-which-one-is-alive/PRODUCTION-RUNBOOK.md) | Episode 01 — runbook production all-in-one hiện hành |
-| [`../episodes/01-which-one-is-alive/archive/HISTORICAL-V2.md`](../episodes/01-which-one-is-alive/archive/HISTORICAL-V2.md) | Episode 01 — bản lịch sử, không dùng production |
-| [`../episodes/02-float-or-sink/PRODUCTION-RUNBOOK.md`](../episodes/02-float-or-sink/PRODUCTION-RUNBOOK.md) | Episode 02 — runbook production all-in-one hiện hành |
-| [`../episodes/03-shadow-match/PRODUCTION-RUNBOOK.md`](../episodes/03-shadow-match/PRODUCTION-RUNBOOK.md) | Episode 03 — runbook production all-in-one hiện hành |
-| [`../episodes/04-animal-home/PRODUCTION-RUNBOOK.md`](../episodes/04-animal-home/PRODUCTION-RUNBOOK.md) | Episode 04 — runbook production all-in-one hiện hành |
-| [`../episodes/05-healthy-teeth/EPISODE-PLAN.md`](../episodes/05-healthy-teeth/EPISODE-PLAN.md) | Episode 05 — plan đã duyệt, chờ compile lại runbook |
-| [`../episodes/06-loud-or-soft/PRODUCTION-RUNBOOK.md`](../episodes/06-loud-or-soft/PRODUCTION-RUNBOOK.md) | Episode 06 — runbook production all-in-one hiện hành |
-| [`../episodes/07-heavy-or-light/PRODUCTION-RUNBOOK.md`](../episodes/07-heavy-or-light/PRODUCTION-RUNBOOK.md) | Episode 07 — runbook production all-in-one hiện hành |
-| [`../episodes/08-magnetic-or-not/PRODUCTION-RUNBOOK.md`](../episodes/08-magnetic-or-not/PRODUCTION-RUNBOOK.md) | Episode 08 — runbook production all-in-one hiện hành |
-| [`../episodes/09-hot-or-cold/PRODUCTION-RUNBOOK.md`](../episodes/09-hot-or-cold/PRODUCTION-RUNBOOK.md) | Episode 09 — runbook production all-in-one hiện hành |
-| [`../episodes/10-day-or-night/PRODUCTION-RUNBOOK.md`](../episodes/10-day-or-night/PRODUCTION-RUNBOOK.md) | Episode 10 — runbook production all-in-one hiện hành |
+| character/style/voice/music Shorts | [`NOURI-SHORTS-BIBLE.md`](NOURI-SHORTS-BIBLE.md) |
+| character canon landscape cũ | [`NOURI-BIBLE.md`](NOURI-BIBLE.md) |
+| channel promise | [`../CHANNEL-STRATEGY.md`](../CHANNEL-STRATEGY.md) |
+| backlog Nouri | [`../planning/VIDEO-BACKLOG.md`](../planning/VIDEO-BACKLOG.md) |
+| component/shot grammar dùng chung | [`../../KidsContentLab/SCENE-MODULE-FORMAT.md`](../../KidsContentLab/SCENE-MODULE-FORMAT.md) |
 
-## Quy trình sản xuất 1 video (lặp lại y hệt cho mọi video)
+## Quy trình một video
 
-1. **Chọn đề bài** từ backlog: 1 câu hỏi + 1 kiến thức + 3 vật thể.
-2. **Generate 5 clip all-in-one** trên Higgsfield/Seedance, mỗi clip ≤ 8 giây, dùng `PRODUCTION-RUNBOOK.md` trong folder episode đang làm.
-   - Dán các khối trong [`NOURI-BIBLE.md`](NOURI-BIBLE.md) y nguyên, không viết lại theo trí nhớ.
-   - Mỗi clip generate độc lập. KHÔNG dùng extend, KHÔNG tham chiếu video trước.
-   - Mỗi prompt phải tự chứa toàn bộ hình, animation, chữ trên hình, thoại/voice-over, ambience, SFX và nhạc của clip đó.
-3. **Duyệt từng take** ngay khi ra: đối chiếu với dòng "End frame", thoại và "Constraints" trong runbook episode. Sai thì retake — mỗi lần retake chỉ đổi ĐÚNG 1 biến số. Tối đa 3 retake/clip, quá thì viết lại prompt.
-4. **Final assembly — không hậu kỳ sáng tạo:**
-   - Chỉ ghép 5 take đã duyệt bằng **hard cut**; không transition, overlay, subtitle, freeze-frame, music track, SFX, dub hoặc chỉnh animation bên ngoài Higgsfield.
-   - Countdown, learning words, native dialogue, music duck/silence và SFX timing-critical phải được generate sẵn trong prompt của đúng clip.
-   - Clip nào sai chữ, giọng, mix, cue hoặc animation phải retake trong Higgsfield; không chấp nhận với ý định “sửa sau”.
-5. **Đăng và đo**: xem retention tại giây 3, giây 15 và thời điểm reveal. Dữ liệu này quyết định video sau, không phải cảm tính.
+1. Tạo `videos/<number>-<slug>/VIDEO-PLAN.md` với một question, một fact và năm component.
+2. Tạo `ASSEMBLY-MAP.md`; chốt thứ tự component trước khi compile shot.
+3. Mỗi component có folder riêng: `COMPONENT-PLAN.md` chứa mục tiêu, set, start state, 4–5 shot, endpoint, handoff và QA; `PRODUCTION-RUNBOOK.md` chứa prompt copy-ready, checklist nhận take và retake đúng một biến.
+4. Mỗi shot trong `PRODUCTION-RUNBOOK.md` tự chứa STYLE, SET, Nouri/props khi cần, action, camera, light, exact text, voice, music, ambience, SFX, end frame và constraints.
+5. Generate shot độc lập; không dùng câu mơ hồ `continue from previous clip`. State cần nối phải được viết lại rõ.
+6. Ghi mọi take vào `TAKE-LOG.csv`. Sai character, count, cause-effect, exact text, audio hoặc endpoint là retake.
+7. Ghép đúng `ASSEMBLY-MAP.md`: trim, hard cut và cân loudness; không dùng editor để chữa creative layer lỗi.
+8. Export private-first, kiểm tra 9:16 safe area, duration, processing, restrictions và Made for Kids.
 
-## 5 nguyên tắc sống còn (rút từ skill seedance-20)
+## Nouri locks
 
-1. **AI không có trí nhớ → sự nhất quán nằm trong việc copy-paste.** Nouri trông giống nhau giữa các clip vì mô tả giống nhau từng chữ, không phải vì AI "nhớ". Sửa 1 từ trong khối nhân vật = đổi diễn viên.
-2. **Mỗi clip chỉ có 1 nhịp hành động + 1 chuyển động camera có điểm kết thúc.** Tham lam 2 hành động trong 8 giây là cách nhanh nhất để ra clip hỏng.
-3. **Chuyển động chính là bài học.** Trong đoạn quan sát, CHỈ vật thể đúng đáp án được động đậy (cây rung trong gió), mọi thứ khác đứng im tuyệt đối. Trẻ đoán được nhờ mắt, không cần nghe hiểu tiếng Anh.
-4. Nhớ là prompt bằng tiếng anh
-5. **Không dùng “superpower”, siêu năng lực hoặc phép thuật để giải thích bài học.** Nouri là người hướng dẫn tò mò, không phải siêu anh hùng; mọi reveal và fact phải dựa trên nguyên nhân–kết quả quan sát được. Không dùng hào quang phép thuật, tia năng lượng hoặc lời thoại biến một hiện tượng khoa học thành năng lực đặc biệt.
-
-## Skill đạo diễn đã cài
-
-- `~/.claude/skills/seedance-20/` — bộ skill gốc đầy đủ (28 sub-skills) từ github.com/Emily2040/seedance-2.0
-- `~/.claude/skills/nouri-director/` — skill chắt lọc riêng cho format này
-- `~/.codex/skills/seedance-director/` — skill Codex hiện hành; đọc Bible sống trước khi viết prompt
-
-Lần sau chỉ cần nói: *"làm video mới theo format Nouri's Quick Wonder, đề tài Float or Sink"* — Claude sẽ tự dựng đủ bộ prompt theo đúng quy trình này.
+- Nouri là recurring character duy nhất; 
+- Một shot có tối đa một hành động chính; Nouri dừng body/head/paw trước khi nói.
+- Proof phải đọc được khi tắt tiếng và có physical cause nhìn thấy được.
+- Không dùng skill superpower (vốn là đặc thù cho coding trong ./skill/codex), phép thuật, hào quang hoặc đồ vật tự chuyển động.
+- Sau ba retake thất bại, giảm event density hoặc tách shot; không thêm prompt adjectives.

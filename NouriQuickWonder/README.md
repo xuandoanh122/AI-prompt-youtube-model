@@ -1,31 +1,34 @@
-# Nouri's Quick Wonder
+# NOURI'S QUICK WONDER
 
-Series khoa học tương tác ngắn cho trẻ 4–8 tuổi, sản xuất bằng các clip Higgsfield all-in-one và phát hành ưu tiên YouTube thường ở landscape 16:9.
+Project này **chỉ dành cho Nouri**. Mọi video mới trong folder này phải có Nouri hoặc trực tiếp phục vụ canon/production của Nouri; không đặt Pip, Tiko hay chiến lược kênh khác ở đây.
 
-## Mở file nào trước?
+## Mở theo thứ tự
 
-- Quy trình chung: [`shared/PRODUCTION-GUIDE.md`](shared/PRODUCTION-GUIDE.md)
-- Canon Nouri: [`shared/NOURI-BIBLE.md`](shared/NOURI-BIBLE.md)
-- Danh sách episode: [`planning/EPISODE-BACKLOG.md`](planning/EPISODE-BACKLOG.md)
+1. [`CHANNEL-STRATEGY.md`](CHANNEL-STRATEGY.md)
+2. [`shared/NOURI-SHORTS-BIBLE.md`](shared/NOURI-SHORTS-BIBLE.md)
+3. [`shared/PRODUCTION-GUIDE.md`](shared/PRODUCTION-GUIDE.md)
+4. [`planning/VIDEO-BACKLOG.md`](planning/VIDEO-BACKLOG.md)
+5. Active pilot: [`videos/11-which-one-rolls/VIDEO-PLAN.md`](videos/11-which-one-rolls/VIDEO-PLAN.md)
 
-## Episodes
+## Cấu trúc video mới
 
-| Episode | Trạng thái | File chính |
-|---|---|---|
-| 01 — Which One Is Alive? | Production runbook | [`episodes/01-which-one-is-alive/PRODUCTION-RUNBOOK.md`](episodes/01-which-one-is-alive/PRODUCTION-RUNBOOK.md) |
-| 02 — Float or Sink? | Production runbook đã có | [`episodes/02-float-or-sink/PRODUCTION-RUNBOOK.md`](episodes/02-float-or-sink/PRODUCTION-RUNBOOK.md) |
-| 03 — Shadow Match | Production runbook đã có | [`episodes/03-shadow-match/PRODUCTION-RUNBOOK.md`](episodes/03-shadow-match/PRODUCTION-RUNBOOK.md) |
-| 04 — Animal Home | Production runbook đã có | [`episodes/04-animal-home/PRODUCTION-RUNBOOK.md`](episodes/04-animal-home/PRODUCTION-RUNBOOK.md) |
-| 05 — Healthy Teeth | Plan đã duyệt, chờ compile lại | [`episodes/05-healthy-teeth/EPISODE-PLAN.md`](episodes/05-healthy-teeth/EPISODE-PLAN.md) |
-| 06 — Loud or Soft | Production runbook đã có | [`episodes/06-loud-or-soft/PRODUCTION-RUNBOOK.md`](episodes/06-loud-or-soft/PRODUCTION-RUNBOOK.md) |
-| 07 — Heavy or Light | Production runbook đã có | [`episodes/07-heavy-or-light/PRODUCTION-RUNBOOK.md`](episodes/07-heavy-or-light/PRODUCTION-RUNBOOK.md) |
-| 08 — Magnetic or Not | Production runbook đã có | [`episodes/08-magnetic-or-not/PRODUCTION-RUNBOOK.md`](episodes/08-magnetic-or-not/PRODUCTION-RUNBOOK.md) |
-| 09 — Hot or Cold | Production runbook đã có | [`episodes/09-hot-or-cold/PRODUCTION-RUNBOOK.md`](episodes/09-hot-or-cold/PRODUCTION-RUNBOOK.md) |
-| 10 — Day or Night | Production runbook đã có | [`episodes/10-day-or-night/PRODUCTION-RUNBOOK.md`](episodes/10-day-or-night/PRODUCTION-RUNBOOK.md) |
+```text
+videos/<number>-<slug>/
+├── VIDEO-PLAN.md
+├── ASSEMBLY-MAP.md
+├── TAKE-LOG.csv
+└── components/
+    ├── 01-<scene>/
+    │   ├── COMPONENT-PLAN.md
+    │   └── PRODUCTION-RUNBOOK.md
+    ├── 02-<scene>/
+    │   ├── COMPONENT-PLAN.md
+    │   └── PRODUCTION-RUNBOOK.md
+    └── ...
+```
 
-## Quy tắc thư mục
+Video 11 là mẫu đã áp dụng đủ tầng. Các file `EPISODE-PLAN.md` và `PRODUCTION-RUNBOOK.md` cũ trong Video 11–30 là legacy reference; khi nâng một concept thành production mới, tạo `VIDEO-PLAN.md` và `components/` ngay trong folder video đó.
 
-- `shared/`: canon và tài nguyên dùng cho mọi episode.
-- `planning/`: backlog cấp series.
-- `episodes/<số>-<slug>/`: brief, plan, runbook và archive riêng của từng nội dung.
-- Root chỉ giữ `README.md`; không đặt thêm tài liệu episode lẫn ở đây.
+Trong mỗi component, đọc `COMPONENT-PLAN.md` để hiểu mục tiêu và continuity; dùng `PRODUCTION-RUNBOOK.md` để copy prompt và nhận/retake từng shot.
+
+Format chung và tracker ba kênh nằm ngoài project tại [`../KidsContentLab/`](../KidsContentLab/).
